@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 1</title>
+  </head>
+
+  <style>
+    .logo {
+      display: flex;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+    }
+    .nav-items {
+      display: flex;
+      background-color: coral;
+      justify-content: space-between;
+    }
+
+    .nav-item {
+      margin-right: 10px;
+      /* -left 
+        top bootom
+      margin: 0 10px; */
+      /* background-color: aqua; */
+    }
+    .title {
+      font-size: 36px;
+      background: coral;
+      color: white;
+      width: fit-content;
+      padding: 12px;
+      align-items: center;
+    }
+
+    .sub-title {
+      font-size: 24px;
+      background: coral;
+      color: white;
+      width: fit-content;
+      padding: 10px;
+      align-items: center;
+    }
+
+    .image {
+      display: flex;
+      height: 200%;
+      width: 200%;
+      object-fit: cover;
+      object-position: center;
+    }
+    p {
+      width: 50%;
+    }
+  </style>
+
+  <body>
+    <nav>
+      <div class="logo">Logo</div>
+      <div class="nav-items">
+        <div class="nav-item">Home</div>
+        <div class="nav-item">Home</div>
+        <div class="nav-item">Home</div>
+        <div class="nav-item">Home</div>
+        <div class="nav-item">Home</div>
+        <div class="nav-item">Home</div>
+      </div>
+    </nav>
+    <main>
+      <section>
+        <div class="text-area"></div>
+      </section>
+    </main>
+    <section>
+      <div class="text-area">
+        <div class="title">Some Random Title</div>
+        <div class="sub-title">Random Sub-Title</div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad harum
+          distinctio similique laudantium fugit vel aspernatur saepe nam at
+          libero? Adipisci ad aliquam laboriosam quod quos quibusdam aperiam
+          tenetur nesciunt.
+        </p>
+      </div>
+      <div class="image">
+        <img
+          src="https://cdn.pixabay.com/photo/2016/01/31/19/41/apple-1172060_1280.jpg"
+          alt=""
+        />
+      </div>
+      <div class="botton">
+        <button>Press Here</button>
+      </div>
+    </section>
+  </body>
+</html>
